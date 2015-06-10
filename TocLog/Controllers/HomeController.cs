@@ -8,7 +8,6 @@ namespace TocLog.Controllers
 {
     public class HomeController : Controller
     {
-        [Authorize(Users="tomas.lidholm@r2m.onmicrosoft.com")]
         public ActionResult Index()
         {
             return View();
